@@ -2,8 +2,86 @@ html {
   height: 100%;
 }
 
+header {
+  font-family: Times, Georgia, serif;
+  font-weight: bold;
+  padding: 1px;
+  text-align: center;
+  background-color: rgb(236, 235, 235);
+}
+
 body {
+  font-family: verdana, sans-serif;
+  background-color: rgb(4, 134, 167);
   margin: 0;
   min-height: 100%;
+  min-width: 25%;
   font: 16px / 1 sans-serif;
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  background-color: rgb(236, 235, 235);
+}
+
+article {
+  padding-left: 10px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+menu {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(46, 170, 253);
+}
+
+section {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.pages {
+  padding: 10px;
+  align-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+
+  margin: 0;
+}
+
+footer {
+  font-weight: bold;
+  font-family: verdana, sans-serif;
+  background-color: lightgrey;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+a.menu {
+  color: white;
+}
+
+a.foot {
+}
+
+div img {
+  padding: 5px;
+}
+
+div {
 }
